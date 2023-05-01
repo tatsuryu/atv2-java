@@ -12,3 +12,6 @@ build: src/br/uniavan/Atv2.class
 
 run: build
 	@cd src; java br.edu.uniavan.Atv2
+
+clean:
+	@git clean -Xdf
